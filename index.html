@@ -3,40 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>登录界面</title>
+    <title>yizhen 博客</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="login-container">
-        <h2>用户登录</h2>
-        <form id="loginForm">
-            <div class="input-group">
-                <label for="username">用户名：</label>
-                <input type="text" id="username" required>
-            </div>
-            <div class="input-group">
-                <label for="password">密码：</label>
-                <input type="password" id="password" required>
-            </div>
-            <button type="submit">登录</button>
-        </form>
-        <button id="registerBtn">注册</button>
-
-        <div id="registerContainer" style="display:none;">
-            <h2>用户注册</h2>
-            <form id="registerForm">
-                <div class="input-group">
-                    <label for="newUsername">用户名：</label>
-                    <input type="text" id="newUsername" required>
-                </div>
-                <div class="input-group">
-                    <label for="newPassword">密码：</label>
-                    <input type="password" id="newPassword" required>
-                </div>
-                <button type="submit">注册</button>
-            </form>
+    <header>
+        <h1>yizhen 博客</h1>
+        <div class="auth-buttons">
+            <button id="login-btn">登录</button>
+            <button id="register-btn">注册</button>
         </div>
-    </div>
-    <script src="s.js"></script>
+    </header>
+    <main>
+        <h2>欢迎来到yizhen博客</h2>
+        <p>在这里，你可以找到丰富的内容与分享。</p>
+    </main>
+    <script src="script.js"></script>
 </body>
 </html>
